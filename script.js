@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(window).scroll(function(){
+    /*$(window).scroll(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
@@ -14,6 +14,10 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    */
+
+    /* Removed this and now the nav bar is permanent */
+
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
